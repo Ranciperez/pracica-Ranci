@@ -1,0 +1,113 @@
+#titulo {
+    color: tomato;
+    font-size: 40px;
+}
+
+.texto {
+    color: turquoise
+}
+
+.especial {
+    color: rgb(49, 221, 49)
+}
+
+div h2 {
+    color: greenyellow
+}
+
+div h3 {
+    color: aquamarine;
+}
+
+* {
+    font-size: 20px;
+}
+
+
+/* .color {
+    border: 3px black inset
+} */
+
+.color {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 5px;
+}
+
+#fondo {
+    color: red;
+    font-size: 40px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(hola\ mundo.jpg);
+    background-size: 350px;
+    background-repeat: repeat-y;
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 10px 15px 20px 25px;
+    padding: 25px 20px 15px 10px;
+    border: solid 3px black;
+}
+
+.text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 3px 5px 4px cornflowerblue;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:active {
+    color: green;
+}
+
+ul {
+    background-color: rgb(245, 160, 160);
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: solid black;
+    padding: 3px;
+}
+
+th {
+    background-color: burlywood;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: cornsilk;
+}
+
+td:hover {
+    background-color: cadetblue;
+    color: white;
+    text-align: left;
+}
+
+.inline {
+    display: inline;
+}
