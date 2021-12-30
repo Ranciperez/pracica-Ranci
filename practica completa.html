@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Aprendiendo HTML</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(0, 0, 0);
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>producto</th>
+                <th>precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>pescado</td>
+                <td>100 LB </td>
+            </tr>
+            <tr>
+                <td>Camarones</td>
+                <td>300 LB</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 400 $</td>
+        </tfoot>
+
+    </table>
+    <!--lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+
+    </ul>
+    <!--lista ordenada-->
+    <ol>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-alpha">sub elemento 1 </li>
+                <li style="list-style-type:lower-alpha">sub elemento 2 </li>
+                <li style="list-style-type:lower-alpha">sub elemento 3 </li>
+                <li style="list-style-type:lower-alpha">sub elemento 4 </li>
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="Nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea name="" id="Comentarios" cols="50" rows="10" placeholder="Comentarios"></textarea>
+        <br>
+        <button type="button">boton</button>
+        <button type="reset">reiniciar</button>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+    <h1>Hello World</h1>
+    <HR>
+    <p>Esta es un prueba o practica de html para mi <span style='color: aqua;'>perfecion en desarrollo de pagina web</span> y buscar un desempeño laboral en la carrera de ing.sistema y poder cobrar el mazo, la paca, la moña, el efete o ganar mucho dinero.
+    </p>
+    <a> target="_blank" href="https://www.google.com/">ir a google</a>
+    <!-- Esta es la parte invisible del html -->
+    <hr>
+    <img src='imagenes/hola mundo.jpg' height="400" alt="">
+
+
+
+</body>
+
+</html>
