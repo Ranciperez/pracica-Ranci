@@ -25,13 +25,39 @@ header h1 {
 }
 
 section article {
+    transition: all 0.3 ease;
     background-color: white;
     margin: 2rem 0rem;
     border-radius: 0.5rem;
     padding: 0.25rem 0rem;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(000, 000, 000);
 }
 
 section article h2,
 section article p {
     margin: 1rem;
+}
+
+footer {
+    background-color: rgb(31, 32, 32);
+    padding: 3rem;
+    color: white;
+}
+
+footer a {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aqua;
+}
+
+footer p {
+    margin: 0;
 }
